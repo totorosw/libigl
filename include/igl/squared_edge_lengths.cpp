@@ -64,7 +64,7 @@ IGL_INLINE void igl::squared_edge_lengths(
     default:
     {
       cerr<< "squared_edge_lengths.h: Error: Simplex size ("<<F.cols()<<
-        ") not supported"<<endl;
+        ") not supported"<<std::endl;
       assert(false);
     }
   }
